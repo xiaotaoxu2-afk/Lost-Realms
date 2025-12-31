@@ -1,0 +1,28 @@
+# Unity默认忽略文件
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.assetStoreTools*
+.vs/
+.idea/
+*.zip
+# 如果你导出了游戏包，也忽略（可选）
+GameBuild/

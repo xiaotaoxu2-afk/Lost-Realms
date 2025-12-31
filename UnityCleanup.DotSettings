@@ -1,0 +1,26 @@
+﻿<wpf:ResourceDictionary
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+  <!-- 说明：这是一个“清理配置”，用于 Rider 的 Code Cleanup Profile。
+       不同 Rider 版本支持的键可能略有差异，但这套设置在多数版本下是“温和且通用”的。 -->
+
+  <!-- 默认使用的 Cleanup Profile 名称 -->
+  <sys:String x:Key="/Default/CodeStyle/CodeCleanup/Profiles/=Unity_Standard/@EntryIndexedValue">Unity Standard</sys:String>
+
+  <!-- Profile: Unity Standard -->
+  <!-- 1) 格式化（Reformat） -->
+  <sys:Boolean x:Key="/Default/CodeStyle/CodeCleanup/Profiles/=Unity_Standard/MemberReformat/@EntryValue">True</sys:Boolean>
+
+  <!-- 2) 优化 using（移除未使用并排序分组） -->
+  <sys:Boolean x:Key="/Default/CodeStyle/CodeCleanup/Profiles/=Unity_Standard/OptimizeUsings/@EntryValue">True</sys:Boolean>
+
+  <!-- 3) 排序成员（Unity里不建议自动重排，容易打乱SerializeField和手写布局）
+         所以这里默认 False。 -->
+  <sys:Boolean x:Key="/Default/CodeStyle/CodeCleanup/Profiles/=Unity_Standard/ReorderTypeMembers/@EntryValue">False</sys:Boolean>
+
+  <!-- 4) 代码缩进对齐（受 .editorconfig 约束） -->
+  <sys:Boolean x:Key="/Default/CodeStyle/CodeCleanup/Profiles/=Unity_Standard/AdjustFormatting/@EntryValue">True</sys:Boolean>
+
+</wpf:ResourceDictionary>

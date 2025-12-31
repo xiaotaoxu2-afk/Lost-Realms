@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Enemies
+  m_EditorClassIdentifier: 
+  m_GroupName: Enemies
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6a4ddd36dd4077140af61d2e74d8e64f
+  m_SerializeEntries:
+  - m_GUID: 0c78883f87e7ebd4eaee574659041822
+    m_Address: CE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d01e32c249aa8d44b117a4630ca0f0f
+    m_Address: "\u53F2\u83B1\u59C6"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c98974792d2dbd43950c783223abd11
+    m_Address: ME2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75421918503752a4c82b0e919f3de543
+    m_Address: FE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83ed39c2977982f43a1ee9ebcc0150e8
+    m_Address: 01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 858fe2ed86c4c5d44a74a4b68125befb
+    m_Address: ME1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 888b9d54f63b5444b99a474d78ff9cb4
+    m_Address: "\u9AB7\u9AC5\u8FDE\u67B7\u602A"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b08682371558a2d489c4103eea12b132
+    m_Address: FR
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2a033f7cc4ec3e459c8ead2817a4c21
+    m_Address: "\u8759\u8760\u602A"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec62807cebb5d4343bad358e245bbe0f
+    m_Address: Boss
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 9a2c1bf532cbc414ab9385e8ea2743f1, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 225d3fe6d1983874d957848d40e96e6b, type: 2}
+    - {fileID: 11400000, guid: ba8e2a68d02b62847be42e63f5600b0d, type: 2}
